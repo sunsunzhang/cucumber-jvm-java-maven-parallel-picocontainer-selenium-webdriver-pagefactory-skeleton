@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
 
 public class GoogleSearchPage {
-	private final String url = "http://www.google.co.uk/";
+	private final String url = "http://www.google.com";
 	private final WebDriver driver;
 
 	@FindBy(css = "#lst-ib")
